@@ -263,3 +263,69 @@
 #          f"Hududi: {malumot['maydon']} kv.km"
 #          f"Aholisi: {malumot['aholi']}"
 #          f"Pul birligi: {malumot['pul birligi']}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+#
+
+##for1
+#k = int(input("k = "))
+#n = int(input("n = "))#
+
+#for i in range(n):
+#    print(k)#
+
+
+
+#for2
+#a = int(input("a = "))
+#b = int(input("b = "))
+#
+#count = 0
+#for i in range(a, b + 1):
+#    print(i)
+#    count = count + 1
+#
+#print("Sikl", count, "marta takrorlandi")
+
+
+
+
+
+
+
+
+
+
+
+ #for3
+a = int(input("a = "))
+b = int(input("b = "))
+
+count = 0
+for i in range(b -1 , a ,  -1 ):
+    print(i)
+
+count += 1
+print("soni ", count)
