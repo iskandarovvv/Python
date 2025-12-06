@@ -407,16 +407,47 @@
 
 
 
-savol ="Kiritilgan sonning ildizini qaytaruvchi dastur."
-savol += "Musbat son kiriting "
-savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+#savol ="Kiritilgan sonning ildizini qaytaruvchi dastur."
+#savol += "Musbat son kiriting "
+#savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+#
+#while True:
+#    qiymat = input(savol)
+#    if qiymat=='exit':
+#        break
+#    elif float(qiymat)<0:
+#        continue 
+#    else:
+#        ildiz = float(qiymat)**(0.5#
+#        print(f"{qiymat} ning ildizi {ildiz} ga teng"№
 
-while True:
-    qiymat = input(savol)
-    if qiymat=='exit':
-        break
-    elif float(qiymat)<0:
-        continue 
-    else:
-        ildiz = float(qiymat)**(0.5)
-        print(f"{qiymat} ning ildizi {ildiz} ga teng")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import math
+
+
+
+
+A1 = int(input("A1 = "))
+B1 = int(input("B1 = "))
+C1 = int(input("C1 = "))
+A2 = int(input("A2 = "))
+B2 = int(input("B2 = "))
+C2 = int(input("C2 = "))
+D = (A1*B2 - A2*B1)
+x = (C1*B2 - C2*B1)/D
+y = (A1*C2 - A2*C1)/D
+print(x , y)
