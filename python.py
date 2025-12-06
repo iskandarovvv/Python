@@ -34,6 +34,11 @@
 #}
 #print(f"Pythonda else {python['else']}")
 
+
+
+
+
+
 #             4
 #kalit = input("Kalit so'z kiriting:")
 #print(python.get(kalit, "Bunday so'z mavjud emas"))
@@ -59,7 +64,7 @@
 
 
 
-#
+
 #python = {
 #    'boolean':'Mantiqiy qiymat',
 #    'float': "O'nlik son",
@@ -76,7 +81,7 @@
 
 
 
-#
+
 #1_mashxur_shaxs = {
 #    'ism' : 'Abu Abdulloh Muhammad ibn Ismoil',
 #    't_yili' : '810',
@@ -101,7 +106,7 @@
 #    'vafot_yili' : '1501',
 #    't_joyi' : 'Xirot'
 #}
-#
+
 #shaxslar = [1_mashxur_shaxs , 2_mashxur_shaxs , 3_mashxur_shaxs , 4_mashxur_shaxs]
 #
 #for shaxs in shaxslar:
@@ -122,13 +127,7 @@
 
 
 
-#
-#
-#
-#
-#
-#
-#
+
 #1_mashxur_shaxs = {
 #    'ism' : 'Abu Abdulloh Muhammad ibn Ismoil',
 #    't_yili' : '810',
@@ -225,8 +224,7 @@
 
 
 
-#
-#
+
 #davlatlar = {
 #    "o'zbekiston":{
 #                   'poytaxt':"toshkent",
@@ -286,8 +284,8 @@
 
 
 
-#
-#
+
+
 
 #for1
 #k = int(input("k = "))
@@ -301,7 +299,7 @@
 #for2
 #a = int(input("a = "))
 #b = int(input("b = "))
-#
+
 #count = 0
 #for i in range(a, b + 1):
 #    print(i)
@@ -385,10 +383,40 @@
 
 
 
-A = "Sevgan kitobingizni kiriting : "
+#A = "Sevgan kitobingizni kiriting : "
+#
+#while True :
+#    kitob = input(A)
+#    javob = input("Dasturni tugatish uchun 'exit' yoki 'quite' deb yozing :  ")
+#    if (javob.lower() == 'quite' or javob.lower() == 'exit') :
+#        break
 
-while True :
-    kitob = input(A)
-    javob = input("Dasturni tugatish uchun 'exit' yoki 'quite' deb yozing :  ")
-    if (javob.lower() == 'quite' or javob.lower() == 'exit') :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+savol ="Kiritilgan sonning ildizini qaytaruvchi dastur."
+savol += "Musbat son kiriting "
+savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+
+while True:
+    qiymat = input(savol)
+    if qiymat=='exit':
         break
+    elif float(qiymat)<0:
+        continue 
+    else:
+        ildiz = float(qiymat)**(0.5)
+        print(f"{qiymat} ning ildizi {ildiz} ga teng")
