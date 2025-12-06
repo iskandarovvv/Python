@@ -289,12 +289,12 @@
 #
 #
 
-##for1
+#for1
 #k = int(input("k = "))
-#n = int(input("n = "))#
+#n = int(input("n = "))
 
 #for i in range(n):
-#    print(k)#
+#    print(k)
 
 
 
@@ -319,13 +319,76 @@
 
 
 
- #for3
-a = int(input("a = "))
-b = int(input("b = "))
+#for3
+#a = int(input("a = "))
+#b = int(input("b = "))
+#
+#count = 0
+#for i in range(b -1 , a ,  -1 ):
+#    print(i)
+#
+#count += 1
+#print("soni ", count)
 
-count = 0
-for i in range(b -1 , a ,  -1 ):
-    print(i)
 
-count += 1
-print("soni ", count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#for4
+
+#narx = float(input("1 kg konfet narxini kiriting: "))
+#
+#for i in range(1, 10 + 1):
+#    print(i, "kg konfet narxi =", narx * i)
+
+
+
+
+
+
+
+
+#while True :
+#    yosh = int(input("Yoshingizni kiriting : "))
+#    if yosh <= 7 :
+#        narx = 2000
+#    elif yosh <= 18 :
+#        narx = 3000
+#    elif yosh <= 65 :
+#        narx = 10000
+#    else :
+#        narx = 0
+#    print(f"Sizga chipta {narx} so'm")
+#    javob = input("Yana davom etasizmi? Dasturni tugatish uchun 'exit' yoki 'quite' deb yozing : ")
+#    if (javob.lower() == 'quite' or javob.lower() == 'exit') :
+#        break
+
+
+
+
+
+
+
+
+A = "Sevgan kitobingizni kiriting : "
+
+while True :
+    kitob = input(A)
+    javob = input("Dasturni tugatish uchun 'exit' yoki 'quite' deb yozing :  ")
+    if (javob.lower() == 'quite' or javob.lower() == 'exit') :
+        break
